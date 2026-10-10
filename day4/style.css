@@ -1,0 +1,46 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --border: #cccccc;
+  --button-bg: #0ba184;
+  --button-text: #ffffff;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #f0f0f0;
+  --border: #555555;
+  --button-bg: #088a70;
+  --button-text: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  padding: 16px;
+}
+
+textarea {
+  display: block;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
